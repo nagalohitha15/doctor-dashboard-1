@@ -1,0 +1,33 @@
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+  overflow-y: auto;
+}
+
+.sidebar.css {
+  width: 250px;
+  background-color: #343a40;
+  color: white;
+}
+
+.header.css {
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
